@@ -52,8 +52,8 @@ ansible all -m ping
 ### Installing the Kubernetes Cluster
 1. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/k8s-ansible-setup.git
-    cd k8s-ansible-setup
+    [git clone https://github.com/yourusername/k8s-ansible-setup.git](https://github.com/mirecloud/kubernetes-cluster-setup-ansible.git)
+    cd kubernetes-cluster-setup-ansible
     ```
 2. Update the `inventory` file with the IP addresses or hostnames of your master and worker nodes.
 3. Run the installation playbook:
