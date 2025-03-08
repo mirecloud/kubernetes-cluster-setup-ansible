@@ -1,6 +1,6 @@
 # Kubernetes Cluster Setup with Ansible
 
-This repository contains Ansible playbooks for setting up and resetting a Kubernetes cluster using `kubeadm` on Ubuntu 24.04 LTS.
+This repository contains Ansible playbooks for setting up and resetting a Kubernetes cluster using `kubeadm` on Ubuntu 24.04 LTS. The cluster will have a control node and as many worker node you want. we are trying to modify it to have a multi control node 
 
 ## Table of Contents
 - [Overview](#overview)
