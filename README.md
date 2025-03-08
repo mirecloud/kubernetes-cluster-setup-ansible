@@ -52,20 +52,20 @@ ansible all -m ping
 ### Installing the Kubernetes Cluster
 1. Clone this repository:
     ```sh
-    [git clone https://github.com/yourusername/k8s-ansible-setup.git](https://github.com/mirecloud/kubernetes-cluster-setup-ansible.git)
+    git clone https://github.com/yourusername/k8s-ansible-setup.git](https://github.com/mirecloud/kubernetes-cluster-setup-ansible.git
     cd kubernetes-cluster-setup-ansible
     ```
 2. Update the `inventory` file with the IP addresses or hostnames of your master and worker nodes.
 3. Run the installation playbook:
     ```sh
-    ansible-playbook -i inventory Cluster_installation.yaml
+    ansible-playbook -i inventory Cluster_installation.yaml 
     ```
 4. After successful installation, your cluster will be ready for use.
 
 ### Resetting the Kubernetes Cluster
 If you need to reset the cluster, run the following command:
 ```sh
-ansible-playbook -i inventory Cluster_reset.yaml
+ansible-playbook -i inventory Cluster_reset.yaml 
 ```
 This will clean up the existing Kubernetes setup and allow a fresh installation.
 
